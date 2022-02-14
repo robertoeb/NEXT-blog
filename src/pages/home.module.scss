@@ -1,1 +1,19 @@
-// TODO
+.contentContainer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  a {
+    margin-bottom: 3rem;
+  }
+
+  .nextPage {
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: var(--highlight);
+    user-select: none;
+    display: contents;
+    cursor: pointer;
+  }
+}

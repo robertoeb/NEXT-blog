@@ -1,1 +1,40 @@
-// TODO
+.postBanner {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contentContainer {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  article {
+    .heading {
+      font-size: 2.25rem;
+      font-weight: bold;
+    }
+
+    .content {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.postInfos {
+  display: flex;
+  margin-top: 1.5rem;
+
+  time,
+  span {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+
+  svg {
+    margin-right: 0.5rem;
+  }
+}
